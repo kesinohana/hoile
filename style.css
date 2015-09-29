@@ -1,0 +1,186 @@
+* {
+	margin:0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+
+body{
+	margin: 0px;
+	background: url("/home/suikazura/Desktop/bai 1/images/bg.jpg");
+	font-size: 100%;
+	line-height: 1.5em;
+}
+#wrapper{
+	background-color: white;
+	background-image: url("/home/suikazura/Desktop/bai 1/images/bg_rgt.jpg"), url("/home/suikazura/Desktop/bai 1/images/bg_lft.jpg");
+	background-position: right 0, left 0;
+	background-repeat: repeat-y, repeat-y;
+	border: 1px solid white;
+	height: 777px;
+	margin: auto;
+	padding-left: 35px;
+	padding-right: 35px;
+	width: 783px;
+}
+
+#header{
+	
+	border-bottom: 1px solid white;
+	height: 264px;
+	width: 783px;
+}
+#aully{
+	
+	width : 783px;
+	height: 70px;
+}
+#aully a{
+	float: right;
+	color: black;
+	margin-right: 35px;
+	margin-top: 30px;
+	font-size: 12px;
+}
+#aully li{
+	float: right;
+	list-style-type: none;
+}
+
+#menu{
+	width: 783px;
+	height: 35px;
+}
+#menu img{
+	float: left;
+}
+#search{
+	width: 783px;
+	height: 43px; 
+	background: url("/home/suikazura/Desktop/bai 1/images/back_for_search.jpg");
+}
+#search img{
+	float: left;
+	margin-left: 128px;
+	margin-top: 14px;
+}
+#search input{
+	float: left;
+	margin-left: 30px;
+	margin-top:15px;
+	margin-bottom: 6px;
+	width: 120px;
+	height: 17px;
+
+}
+#search button{
+	float: left;
+	margin-left: 0px;
+	margin-top: 15px;
+	width: 18px;
+	height: 18px;
+	background: url("/home/suikazura/Desktop/bai 1/images/go_but.gif");
+	border: 0;
+}
+#welcomeandabout{
+	width: 783px;
+	height:118px;
+}
+#welcomeandabout img{
+	float:left;
+}
+#contents{
+	width:783px;
+	height: 425px;
+	margin: 0px;
+
+
+}
+#content{
+	width: 783px;
+	height: 425px;
+}
+#comp_text{
+	float: left;
+	width: 563px;
+	height: 425px;
+	
+}
+#comp_text-1{
+	width: 563px;
+	height: 215px;
+}
+#comp_text-1 p{
+	margin: 11px 0 0 30px;
+}
+#comp_text-1 img{
+	
+	float: top;
+}
+#comp_text-2{
+	background: url("/home/suikazura/Desktop/bai 1/images/back_left.jpg");
+	width: 563px;
+	height: 210px;
+}
+#comp_text-2 img{
+	margin-left: 21px;
+	float: left; 
+	margin-right: 6px;
+}
+#comp_text-2 p{
+	padding: 7px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+#comp_new{
+	background: url("/home/suikazura/Desktop/bai 1/images/back_right.jpg");
+	float: left;
+	width: 218px;
+	height: 425px;
+
+}
+#comp_new img{
+	float: top;
+}
+#comp_new p{
+	color: white;
+    padding: 0 10px;
+    margin-right: 15px;
+    margin-left: 10px;
+}
+#footer{
+	
+	width: 783px;
+	height: 87px;
+}
+#footer_lft {
+	 float: left;
+    height: 87px;
+    width: 563px;
+}
+#footer_lft img{
+	float: left;
+}
+#footer_lft a{
+	float: left;
+	color: black;
+	margin-left: 15px;
+	font-size: 15px;
+}
+#footer_lft li{
+	list-style-type: none;
+}
+#footer_lft h5{
+	 margin-left: 140px;
+	 margin-top: 15px;
+	 margin-bottom: 50px;
+
+}
+#footer_rgt{
+	float :left;
+	height: 87px;
+	width: 219px;
+}
+#footer_rgt img{
+	float: left;
+}
